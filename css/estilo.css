@@ -46,7 +46,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 4px;
     height: 150px;
     width: 150px;
     opacity: 0;
@@ -81,6 +81,23 @@
     width: 25px;
     height: 25px;
 }
+
+.alinhaRedes ul {
+    list-style: none;
+    text-align: center;  
+}
+
+.alinhaRedes li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.recuoSite {
+    margin-top: 15px; 
+    margin-bottom:40px; 
+}
+
+
 @media screen and (max-width: 767px) {
     .overlay {
         position: absolute;
@@ -95,5 +112,19 @@
     .espacamento {
         margin-top: 5px;
         margin-bottom: 25px;
+    }
+
+    .alinhaRedes li {
+        display: inline-block;
+        padding: 0px 15px;
+        margin-top: 10px;
+    }
+
+    .tituloRedes {
+        margin-top: 20px;
+    }
+    
+    .recuo {
+        margin-bottom: 0px;
     }
 }
